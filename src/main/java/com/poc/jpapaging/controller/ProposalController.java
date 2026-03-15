@@ -20,6 +20,14 @@ public class ProposalController {
     this.proposalRepository = proposalRepository;
   }
 
+  /**
+   *
+   * @param pageNumber - page number
+   * @param pageSize
+   * @param sortDirection
+   * @param sortByProperties
+   * @return
+   */
   @GetMapping("/proposals")
   public Page<Proposal> findAll(
       @RequestParam int pageNumber,
