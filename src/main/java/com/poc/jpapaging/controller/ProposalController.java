@@ -4,7 +4,6 @@ import com.poc.jpapaging.model.Proposal;
 import com.poc.jpapaging.repository.ProposalRepository;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
